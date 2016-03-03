@@ -1,0 +1,19 @@
+Asset_Class,SubClass,Supervisory_factor,Correlation,Supervisory_option_volatility
+IRD, ,0.50%,0,50%
+FX, ,4.00%,0,15%
+CreditSingle,AAA,0.38%,50%,100%
+CreditSingle,AA,0.38%,50%,100%
+CreditSingle,A,0.42%,50%,100%
+CreditSingle,BBB,0.54%,50%,100%
+CreditSingle,BB,1.06%,50%,100%
+CreditSingle,B,1.60%,50%,100%
+CreditSingle,CCC,6.00%,50%,100%
+CreditIndex,IG,0.38%,80%,80%
+CreditIndex,SG,1.06%,80%,80%
+EQ, ,32%,50%,120%
+EQIndex, ,20%,80%,75%
+Commodity,Electricity,40%,40%,150%
+Commodity,Oil/Gas,18%,40%,70%
+Commodity,Metals,18%,40%,70%
+Commodity,Agricultural,18%,40%,70%
+Commodity,Other,18%,40%,70%

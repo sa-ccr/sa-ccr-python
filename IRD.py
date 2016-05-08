@@ -27,7 +27,12 @@ class IRDSwaption(IRD):
     def CalcSupervDelta(self, Superv_Vol=None):
         if not Superv_Vol:
             return 1 if self.BuySell=="Buy" else -1
-        num = (log(self.UnderlyingPrice/self.StrikePrice)+0.5*Superv_Vol**2*self.Si)
+        
+        if (self.UnderlyingPrice * self.StrikePrice < 0):
+            num = self.UnderlyingPrice - self.StrikePrice
+        else:
+            num = (log(self.UnderlyingPrice/self.StrikePrice)+0.5*Superv_Vol**2*self.Si)
+        
         den = Superv_Vol*self.Si**0.5
         temp = num/den
         flip = 1 if self.BuySell=="Buy" else -1

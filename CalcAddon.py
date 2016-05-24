@@ -6,6 +6,7 @@ import pandas
 
 
 
+
 def p2f(s):
     return float(s.strip('%'))/100 if '%' in s else float(s)
 def LoadSupervisoryData(filepath):

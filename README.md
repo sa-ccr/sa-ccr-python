@@ -12,3 +12,9 @@ All the examples of the regulatory paper have been implemented (ExampleIRD.R con
 Features like maturity depending on the underlying, base transactions etc are not implemented in the open source version.
 
 If you want to become a contributor to the project or use this code for commercial purposes or for any other queries please contact us at info@openriskcalculator.com or visit our website www.openriskcalculator.com
+
+# Donate 
+
+If you have found this software of use, please consider supporting us by donating below:
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8HBDDB9MHXUTA)

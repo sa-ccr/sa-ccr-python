@@ -1,6 +1,6 @@
 # sa-ccr-python
 
-DISCLAIMER: Apart from being licensed in GPL, this version is far behind the level of the code contained in the SACCR R package, please contact us at info@openriskcalculator.com in case you would like any support in upgrading this.
+<b><u>DISCLAIMER</u>: Apart from being licensed in GPL, this version is far behind the level of the code contained in the SACCR R package, please contact us at info@openriskcalculator.com in case you would like any support in upgrading this.</b>
 
 This repository contains a prototype implementation of the Basel III Standardized Approach for Counterparty Credit Risk Management. (you can view the regulation here: http://www.bis.org/publ/bcbs279.htm)
 
